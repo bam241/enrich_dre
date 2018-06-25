@@ -1,4 +1,4 @@
-<simulation xml:base="/Users/mouginot/work/enrich_inmm/"
+<simulation xml:base="/Users/mouginot/work/enrich_dre/"
   xmlns:xi="http://www.w3.org/2001/XInclude">
 
     <xi:include href="header/header.xml" xpointer="xpointer(//header/*)" />
@@ -10,7 +10,7 @@
     <xi:include href="commum.xml" xpointer="xpointer(//commum/*)" />
 
 
-    <xi:include href="deployer/stages_2.xml" xpointer="xpointer(//deployer/*)" />
+    <xi:include href="deployer/stages_x.xml" xpointer="xpointer(//deployer/*)" />
 
     <agent> <name>deployer_1</name> <prototype>main_deployer</prototype> </agent>
 </simulation>
